@@ -1,0 +1,5 @@
+disnake
+asyncio
+requests
+dotenv
+pycryptodome
