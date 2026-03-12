@@ -24,7 +24,7 @@ class NameModal(disnake.ui.Modal):
                 max_length=15,
             ),
         ]
-        super().__init__(title="Name your New Voice Channel", components=components)
+        super().__init__(title="Name voice channel", components=components)
 
         self.member = member
 
