@@ -23,4 +23,4 @@ jobs:
             sudo docker stop voicemanager-bot
             sudo docker rm voicemanager-bot
             sudo docker build -t voicemanagerbot .
-            sudo docker run -d --restart unless-stopped --name voicemanager-bot voicemanager-bot
+            sudo docker run -d --restart unless-stopped --name voicemanager-bot voicemanagerbot
