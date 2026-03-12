@@ -4,7 +4,6 @@ from disnake.ext import commands
 from disnake import TextInputStyle
 
 load_dotenv()
-
 bot = commands.Bot(
 	intents=disnake.Intents.all(), 
 	allowed_mentions=disnake.AllowedMentions(everyone=True)
