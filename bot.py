@@ -81,7 +81,7 @@ async def on_voice_state_update(member, before, after):
 
 @bot.event
 async def on_ready():
-	activity = disnake.Game(name="Scanning for messages...")
+	activity = disnake.Game(name="Waiting for you to join!")
 	await bot.change_presence(status=disnake.Status.idle, activity=activity)
 
 if __name__ == "__main__":
